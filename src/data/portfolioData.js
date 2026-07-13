@@ -1,55 +1,57 @@
 // ============================================================
-// portfolioData.js — Centralized configuration for Md Yusuf's Portfolio
-// All external links, personal info, and content in one place.
-// Update this file to change any content across the entire site.
+// portfolioData.js — Centralized configuration for Aditya Joshi's Portfolio
 // ============================================================
 
+import imgX3 from '../assets/images/X3 hackathon.jpeg';
+import imgBlockforge from '../assets/images/Blockforge Hackathon.jpeg';
+import imgNullpoint from '../assets/images/nullpointctf.jpeg';
+
 export const personalInfo = {
-  name: "Md Yusuf",
-  firstName: "Md Yusuf",
-  brandName: "Md Yusuf",
-  title: "Full Stack & Java Developer",
-  location: "Bhopal, India",
-  phone: "+91 99396-08743",
+  name: "Aditya Joshi",
+  firstName: "Aditya",
+  brandName: "Aditya Joshi",
+  title: "Web Developer & Blockchain Enthusiast",
+  location: "Belgaum, Karnataka, India",
+  phone: "+91 8431848445",
   emails: {
-    primary: "mdyusufcse096@iesuniversity.ac.in",
-    secondary: "yusuf.rgpv@gmail.com",
+    primary: "adityajoshi18vk@gmail.com",
+    secondary: "",
   },
   summary:
-    "Aspiring software engineer and motivated B.Tech Computer Science student with solid skills in Java, Spring Boot, React, and Python. Passionate about building scalable full-stack applications with clean architecture and modern tech stacks.",
-  resumeUrl: "/Md_Yusuf_Resume_2026.pdf",
+    "B.Tech Computer Science Engineering student with a strong interest in Web Development and Blockchain Technology. Passionate about building secure systems, solving real-world problems, and understanding how technologies work under the hood. Curious, self-driven, and eager to learn emerging technologies while developing impactful software solutions.",
+  resumeUrl: "/Resume.pdf",
 };
 
 export const socialLinks = {
-  github: "https://github.com/mdyusuf0",
-  linkedin: "https://linkedin.com/in/mdyusuf0",
-  instagram: "https://instagram.com/heyyusuffff",
+  github: "https://github.com", 
+  linkedin: "https://linkedin.com", 
+  instagram: "",
 };
 
 export const heroContent = {
-  greeting: "Hi, I'm Md Yusuf",
-  titleHighlight: "Full Stack & Java Developer",
+  greeting: "Hi, I'm Aditya Joshi",
+  titleHighlight: "Software Engineer & Blockchain Dev",
   subtitle:
-    "I build fast, scalable applications using Java, Spring Boot, MERN Stack, and Python.",
+    "I build secure decentralized applications and robust web platforms using React, Solidity, and Python.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "mailto:adityajoshi18vk@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Aditya,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download Resume", href: "/Md_Yusuf_Resume_2026.pdf" },
+  ctaResume: { text: "Download Resume", href: "/Resume.pdf" },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Md Yusuf</span>, an aspiring software engineer based in Bhopal, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
-  techStack: ["Java", "Spring Boot", "MERN Stack"],
+  bio: `Hi, I'm <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Aditya Joshi</span>, a first-year B.Tech Computer Science student with a strong interest in Web Development and Blockchain Technology. I enjoy solving problems, experimenting with new tools, and understanding how systems work under the hood. I'm always curious, eager to learn, and passionate about building projects that expand both my technical and creative skills.`,
+  techStack: ["React.js", "Solidity", "Node.js"],
 };
 
 export const skillsContent = {
   badge: "My Process",
   heading: "Here's how I turn ideas into real-world applications",
   description:
-    "I follow a structured, creative, and highly technical approach to turn ideas into robust full-stack applications.",
+    "I follow a structured, creative, and highly technical approach to turn ideas into robust applications.",
   cards: [
     {
       number: "01",
@@ -75,222 +77,138 @@ export const skillsContent = {
   endText: "Ready to ship!",
 };
 
-// Brand New Technical Skills Data
 export const technicalSkills = {
   categories: [
     {
       title: "Programming Languages",
       skills: [
-        { name: "Java", level: 90 },
-        { name: "C++", level: 85 },
-        { name: "Python", level: 75 }
+        { name: "C / C++", level: 90 },
+        { name: "JavaScript", level: 90 },
+        { name: "Rust", level: 80 },
+        { name: "Solidity", level: 85 },
+        { name: "Python", level: 85 }
       ]
     },
     {
-      title: "Full Stack",
+      title: "Frontend",
       skills: [
-        { name: "MERN Stack", level: 90 },
-        { name: "HTML", level: 95 },
-        { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 92 }
+        { name: "HTML / CSS", level: 95 },
+        { name: "React.js", level: 90 },
+        { name: "TypeScript", level: 85 }
       ]
     },
     {
       title: "Backend",
       skills: [
-        { name: "Spring Boot", level: 88 },
-        { name: "FastAPI", level: 75 },
-        { name: "REST APIs", level: 90 }
+        { name: "Node.js", level: 88 },
+        { name: "Express.js", level: 85 }
       ]
     },
     {
-      title: "Databases",
+      title: "Blockchain",
       skills: [
-        { name: "MongoDB", level: 88 },
-        { name: "MySQL", level: 85 },
-        { name: "Firebase", level: 80 }
+        { name: "Ethereum", level: 90 },
+        { name: "Smart Contracts", level: 90 },
+        { name: "ethers.js", level: 85 },
+        { name: "Foundry", level: 80 }
       ]
     },
     {
-      title: "Tools & Automation",
+      title: "AI & ML",
       skills: [
-        { name: "Git & GitHub", level: 90 },
+        { name: "TensorFlow", level: 80 },
+        { name: "Computer Vision", level: 75 },
+        { name: "LLMs", level: 85 }
+      ]
+    },
+    {
+      title: "Developer Tools",
+      skills: [
+        { name: "Git & GitHub", level: 95 },
         { name: "VS Code", level: 95 },
-        { name: "Postman", level: 88 },
-        { name: "n8n", level: 82 },
-        { name: "MongoDB Compass", level: 85 },
-        { name: "Antigravity", level: 80 },
-        { name: "Codex", level: 75 }
-      ]
-    },
-    {
-      title: "Computer Science Concepts",
-      skills: [
-        { name: "Data Structures", level: 88 },
-        { name: "Algorithms", level: 85 },
-        { name: "DBMS", level: 86 },
-        { name: "OOP", level: 90 },
-        { name: "Software Engineering", level: 84 }
+        { name: "Docker", level: 80 },
+        { name: "IPFS", level: 85 },
+        { name: "Remix IDE", level: 88 }
       ]
     }
   ]
 };
 
-// Brand New Content Creation Data
-export const contentCreation = {
-  badge: "Cinematic Content",
-  heading: "Creative Direction & Cinematic Edits",
-  description: "Beyond coding, I craft visual stories with premium editing, color grading, and creative pacing.",
-  categories: [
-    {
-      title: "Cinematic Reels",
-      description: "Visual stories crafted with cinematic lighting, premium color grading, and high-impact sound design.",
-      stats: "50+ Reels Created",
-      icon: "🎥"
-    },
-    {
-      title: "Travel Videos",
-      description: "Immersive travel vlogs and aesthetic edits capturing cultures, landscapes, and visual rhythms.",
-      stats: "15+ Countries/Cities",
-      icon: "✈️"
-    },
-    {
-      title: "Educational Reels",
-      description: "Fast-paced tech tutorials and educational content designed to simplify coding and software engineering.",
-      stats: "100k+ Views",
-      icon: "🧠"
-    },
-    {
-      title: "My Own Creative Edits",
-      description: "Experimental transitions, 3D overlays, and trendsetting visual effects that push creative bounds.",
-      stats: "Personal Projects",
-      icon: "⚡"
-    }
-  ]
-};
+// Exporting to prevent undefined imports in components that we might not use
+export const contentCreation = { categories: [] };
+export const leadershipList = [];
 
-// Brand New Leadership Data
-export const leadershipList = [
-  {
-    title: "IEEE Madhya Pradesh Section (Social Media Team)",
-    description: "Managed and coordinated digital content, driving audience engagement and designing interactive visual campaigns for tech events.",
-    role: "Social Media Coordinator",
-    badge: "Volunteer"
-  },
-  {
-    title: "Team Coordinator – Go-Kart International Racing 2K25",
-    description: "Led multi-disciplinary teams in project management, budget control, and logistics coordination for a high-profile international racing event.",
-    role: "Team Coordinator",
-    badge: "Leadership"
-  },
-  {
-    title: "5-Day MOE IDE Bootcamp, Roorkee",
-    description: "Participated in an intensive Innovation, Design, and Entrepreneurship Bootcamp organized by the Ministry of Education at IIT Roorkee.",
-    role: "Bootcamp Graduate",
-    badge: "Innovation"
-  },
-  {
-    title: "Hosted INFORIA Tech Summit Hackathon",
-    description: "Organized and hosted the flagship hackathon, managing registrations, mentoring participant teams, and coordinating judge evaluations.",
-    role: "Hackathon Organizer",
-    badge: "Co-Curricular"
-  },
-  {
-    title: "Event Coordinator & Anchoring – INFORIA 2K25",
-    description: "Coordinated technical events and served as the main stage anchor, speaking in front of large crowds and managing the summit flow.",
-    role: "Stage Anchor & Coordinator",
-    badge: "Public Speaking"
-  }
-];
-
-// Brand New Internships Data
 export const internshipsList = [
   {
-    organization: "Netlink, Bhopal",
-    role: "Data Analytics & BI Tools Intern",
-    duration: "June 2025 - August 2025",
-    skills: ["Data Analytics", "Business Intelligence", "Dashboard Design", "Data Modeling"],
-    tech: ["Lumenore", "MySQL", "Excel", "BI Tools"]
+    organization: "AWS Cloud Club SRM AP",
+    role: "1st Prize in X3 Hackathon",
+    duration: "Hackathon",
+    skills: ["Problem Solving", "Team Collaboration", "Cloud Computing"],
+    tech: ["AWS", "Web Development"],
+    img: imgX3
   },
   {
-    organization: "Canva",
-    role: "Visual Content Creator & Designer",
-    duration: "May 2024 - June 2024",
-    skills: ["Visual Designing", "Poster Design", "Team Branding", "Asset Creation"],
-    tech: ["Canva Pro", "Figma", "Canva Design Suite"]
+    organization: "Team1 Blockchain & Hackshastra",
+    role: "2nd Runner Up in BlockForge Mini Hackathon",
+    duration: "Hackathon",
+    skills: ["Smart Contracts", "dApp Development", "Blockchain"],
+    tech: ["Solidity", "React", "Ethereum"],
+    img: imgBlockforge
   },
   {
-    organization: "CollegeTips.in",
-    role: "Web Development Intern",
-    duration: "1 Month (Offline)",
-    skills: ["Frontend Development", "Responsive Layouts", "API Testing", "Web Performance"],
-    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
+    organization: "NULL Point CTF (Our University)",
+    role: "2nd Prize in Documentation and Writing",
+    duration: "CTF",
+    skills: ["Documentation", "Technical Writing", "Security"],
+    tech: ["Cybersecurity", "Writing"],
+    img: imgNullpoint
   }
 ];
 
-// Brand New Soft Skills Data
 export const softSkillsList = [
-  { name: "Leadership", icon: "👑", desc: "Guiding teams, managing tasks, and driving project completion with shared vision." },
-  { name: "Public Speaking", icon: "🎤", desc: "Confident stage presence, anchoring summits, and delivering articulate technical ideas." },
-  { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields, building racing carts, and engineering code in sync." },
-  { name: "Communication", icon: "💬", desc: "Clear, concise, and structured interactions in both business and technical contexts." },
   { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces." },
-  { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks like FastAPI, Spring Boot, or automation tools like n8n." },
-  { name: "Creativity", icon: "🎨", desc: "Blending cinematic aesthetics with software structure to build premium experiences." },
-  { name: "Time Management", icon: "⏰", desc: "Balancing B.Tech studies, event hosting, and developing robust software platforms." }
+  { name: "Self-driven", icon: "🚀", desc: "Curious and eager to learn emerging technologies." },
+  { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields, participating in hackathons." },
+  { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks and languages like Rust and Solidity." }
 ];
 
 export const projects = [
   {
-    id: "foodmesh",
+    id: "chainproof",
     number: "01",
-    badge: "🚀 Flagship Project",
-    title: "FoodMesh",
-    description:
-      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform inspired by UrbanPiper. It enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and orders through a scalable architecture with secure authentication, role-based access control, and real-time operations. Built with React, Next.js, NestJS, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, Kubernetes, and AWS.",
-    techTags: [
-      "React",
-      "Next.js",
-      "NestJS",
-      "PostgreSQL",
-      "Redis",
-      "Kafka",
-      "Elasticsearch",
-      "Docker",
-      "Kubernetes",
-      "AWS",
-    ],
+    badge: "🚀 Featured Project",
+    title: "ChainProof — Trustless Bug Bounty Platform",
+    description: "A decentralized zero-trust bug bounty platform where organizations escrow ETH rewards in Solidity smart contracts, security researchers submit AES-256 encrypted exploit reports via IPFS, and verified exploits automatically trigger on-chain payouts after sandbox verification.",
+    techTags: ["Solidity", "Ethereum", "Foundry", "Node.js", "Express", "Docker", "IPFS", "ethers.js"],
     links: {
-      github: "https://github.com/ersamirsingh/UrbanPiper",
+      github: "https://github.com",
       demo: null,
     },
     isFlagship: true,
   },
   {
-    id: "karigar",
+    id: "aegis-robotics",
     number: "02",
     badge: null,
-    title: "Karigar",
-    description:
-      "A platform connecting local skilled workers with customers, featuring real-time search, worker profiles, and booking management with full database integration.",
-    techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
+    title: "Aegis Robotics",
+    description: "A zero-shot imitation learning framework that enables humanoid robots to learn tasks from video demonstrations using multimodal large language models, while a local TensorFlow safety classifier prevents unsafe behaviors before execution.",
+    techTags: ["Python", "TensorFlow", "Computer Vision", "Robotics", "LLMs"],
     links: {
-      github: "https://github.com/mdyusuf0/Karigar",
-      frontendDemo: "https://karigar-frontend.onrender.com",
-      backendApi: "https://karigar-zny2.onrender.com",
+      github: "https://github.com",
+      demo: "https://demo.com",
     },
     isFlagship: false,
   },
   {
-    id: "sentiment-analysis",
+    id: "lottery-dapp",
     number: "03",
     badge: null,
-    title: "AI-Powered Sentiment Analysis",
-    description:
-      "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
-    techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
+    title: "Lottery D-App",
+    description: "A decentralized Ethereum lottery application built using Solidity smart contracts, allowing transparent and trustless participation while selecting winners automatically through secure on-chain logic.",
+    techTags: ["Solidity", "Ethereum", "Foundry", "ethers.js", "JavaScript"],
     links: {
-      github: "#", // Update when available
+      github: "https://github.com",
+      demo: null,
     },
     isFlagship: false,
   },
@@ -299,61 +217,38 @@ export const projects = [
 export const certificates = {
   featured: [
     {
-      name: "Oracle Cloud Infrastructure 2025",
-      issuer: "Oracle",
-      icon: "☁️",
-    },
-    {
-      name: "Programming in Java (94%)",
-      issuer: "NPTEL",
-      icon: "☕",
-    },
-    {
-      name: "C Programming & Assembly Language",
-      issuer: "NPTEL",
-      icon: "⚙️",
-    },
-    {
-      name: "Technology Job Simulation",
-      issuer: "Deloitte",
-      icon: "💼",
-    },
-    {
-      name: "Career Edge – IT Primer",
-      issuer: "TCS iON",
+      name: "Class XII – 81%",
+      issuer: "KLE IPC",
       icon: "🎓",
     },
     {
-      name: "Fundamentals of BI & Analytics",
-      issuer: "Lumenore",
-      icon: "📊",
-    },
+      name: "Class X – 81%",
+      issuer: "Good Shepherd Central School",
+      icon: "🎓",
+    }
   ],
-  viewAllUrl:
-    "https://drive.google.com/file/d/1ObdGWtVSx8SsfR4AcbCySSd9LFXcAs9f/view?usp=sharing",
+  viewAllUrl: "/Certificates.pdf",
 };
 
 export const education = {
   degree: "B.Tech – Computer Science & Engineering",
-  institution: "IES College of Technology (RGPV)",
-  cgpa: "8.35",
-  graduation: "2027",
-  twelfth: "12th Science – 81%",
-  tenth: "10th CBSE – 70%",
+  institution: "SRM University AP",
+  cgpa: "2025 – 2029", 
+  graduation: "2029",
+  twelfth: "Class XII (KLE IPC) – 81%",
+  tenth: "Class X (Good Shepherd Central School) – 81%",
 };
 
 export const footerContent = {
   taglines: [
-    "Software Engineering & Web Dev",
-    "Java · Spring Boot · React",
-    "Full Stack Applications",
+    "Web Development & Blockchain",
+    "Solidity · React.js · Python",
+    "Building secure decentralized systems",
   ],
-  credential: "B.Tech CSE · CGPA 8.35",
-  copyright: `© ${new Date().getFullYear()} Md Yusuf | Built with React`,
+  credential: "B.Tech CSE Student",
+  copyright: `© ${new Date().getFullYear()} Aditya Joshi`,
 };
 
-// EmailJS Configuration
-// Will read directly from environment variables in Vite (starting with VITE_)
 export const emailjsConfig = {
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID || "YOUR_EMAILJS_SERVICE_ID",
   templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "YOUR_EMAILJS_TEMPLATE_ID",

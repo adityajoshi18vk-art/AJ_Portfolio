@@ -5,8 +5,13 @@ const InternshipCard = ({ intern, index }) => (
   <div 
     data-aos="fade-up"
     data-aos-delay={index * 150}
-    className="bg-black/20 backdrop-blur-md border border-white/10 rounded-3xl p-8 hover:scale-[1.02] hover:bg-black/35 hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-500 flex flex-col justify-between"
+    className="bg-black/20 backdrop-blur-md border border-white/10 rounded-3xl p-6 hover:scale-[1.02] hover:bg-black/35 hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-500 flex flex-col justify-between overflow-hidden"
   >
+    {intern.img && (
+      <div className="w-full h-48 mb-6 overflow-hidden rounded-2xl border border-white/10 shrink-0">
+        <img src={intern.img} alt={intern.role} className="w-full h-full object-cover" />
+      </div>
+    )}
     <div>
       <div className="flex justify-between items-start mb-6">
         <span className="text-white/40 text-xs font-mono font-bold tracking-widest uppercase">
@@ -67,10 +72,10 @@ const Internships = () => {
         {/* Header */}
         <div data-aos="fade-up" className="mb-16 md:mb-20 text-center">
           <h2 className="text-4xl md:text-5xl font-black text-black mb-4 tracking-tight uppercase">
-            Work Experience
+            Experience
           </h2>
           <p className="text-red-100 text-base md:text-lg font-semibold max-w-lg mx-auto">
-            Practical internships where I applied engineering principles and built real-world assets.
+            Practical experience and achievements in hackathons and technical events.
           </p>
         </div>
 
