@@ -8,7 +8,7 @@ import Services from './components/Services'
 import Projects from './components/Projects'
 import Journey from './components/Journey'
 import Education from './components/Education'
-import Certificates from './components/Certificates'
+
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -24,7 +24,7 @@ function App() {
       <Projects />
       <Journey />
       <Education />
-      <Certificates />
+
       <Contact />
       <Footer />
     </>

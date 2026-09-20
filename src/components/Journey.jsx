@@ -48,21 +48,7 @@ const Journey = () => {
                 className="w-full h-auto object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out"
               />
               
-              {/* Overlay Content */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
-                <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                  {item.badge && (
-                    <span className="inline-block mb-3 px-3 py-1 bg-[#ff2a2a] text-white text-[10px] font-black tracking-widest uppercase rounded-full shadow-[0_0_10px_rgba(255,42,42,0.5)]">
-                      {item.badge}
-                    </span>
-                  )}
-                  <h3 className="text-white text-xl font-bold tracking-tight mb-1">{item.title}</h3>
-                  <div className="flex items-center justify-between">
-                    <p className="text-white/70 text-sm font-medium">{item.event}</p>
-                    <p className="text-[#ff2a2a] font-mono text-sm font-bold">{item.year}</p>
-                  </div>
-                </div>
-              </div>
+
             </div>
           ))}
         </div>

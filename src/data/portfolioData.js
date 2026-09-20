@@ -32,7 +32,7 @@ export const heroContent = {
   greeting: "Hi, I'm Aditya Joshi",
   titleHighlight: "Software Engineer & Blockchain Dev",
   subtitle:
-    "I build secure decentralized applications and robust web platforms using React, Solidity, and Python.",
+    "I build secure decentralized applications and robust web platforms using React, Solidity, and Java.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
@@ -84,9 +84,8 @@ export const technicalSkills = {
       skills: [
         { name: "C / C++", level: 90 },
         { name: "JavaScript", level: 90 },
-        { name: "Rust", level: 80 },
-        { name: "Solidity", level: 85 },
-        { name: "Python", level: 85 }
+        { name: "Java", level: 80 },
+        { name: "Solidity", level: 85 }
       ]
     },
     {
@@ -113,14 +112,7 @@ export const technicalSkills = {
         { name: "Foundry", level: 80 }
       ]
     },
-    {
-      title: "AI & ML",
-      skills: [
-        { name: "TensorFlow", level: 80 },
-        { name: "Computer Vision", level: 75 },
-        { name: "LLMs", level: 85 }
-      ]
-    },
+
     {
       title: "Developer Tools",
       skills: [
@@ -169,14 +161,14 @@ export const softSkillsList = [
   { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces." },
   { name: "Self-driven", icon: "🚀", desc: "Curious and eager to learn emerging technologies." },
   { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields, participating in hackathons." },
-  { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks and languages like Rust and Solidity." }
+  { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks and languages like Java and Solidity." }
 ];
 
 export const projects = [
   {
     id: "chainproof",
     number: "01",
-    badge: "🚀 Featured Project",
+    badge: null,
     title: "ChainProof — Trustless Bug Bounty Platform",
     description: "A decentralized zero-trust bug bounty platform where organizations escrow ETH rewards in Solidity smart contracts, security researchers submit AES-256 encrypted exploit reports via IPFS, and verified exploits automatically trigger on-chain payouts after sandbox verification.",
     techTags: ["Solidity", "Ethereum", "Foundry", "Node.js", "Express", "Docker", "IPFS", "ethers.js"],
@@ -184,7 +176,7 @@ export const projects = [
       github: "https://github.com",
       demo: null,
     },
-    isFlagship: true,
+    isFlagship: false,
   },
   {
     id: "aegis-robotics",
@@ -200,35 +192,20 @@ export const projects = [
     isFlagship: false,
   },
   {
-    id: "lottery-dapp",
+    id: "gigly",
     number: "03",
     badge: null,
-    title: "Lottery D-App",
-    description: "A decentralized Ethereum lottery application built using Solidity smart contracts, allowing transparent and trustless participation while selecting winners automatically through secure on-chain logic.",
-    techTags: ["Solidity", "Ethereum", "Foundry", "ethers.js", "JavaScript"],
+    title: "Gigly",
+    description: "Decentralized Escrow, Zero-Knowledge Compliance, and Verifiable Reputation for the Web3 Gig Economy featuring Smart Contract Escrows, ZK-KYC, and Soulbound Tokens.",
+    techTags: ["Next.js", "Thirdweb", "Solidity", "ZK-SNARKs", "Supabase", "React"],
     links: {
-      github: "https://github.com",
+      github: "https://github.com/adityajoshi18vk-art/Gigly-",
       demo: null,
     },
     isFlagship: false,
   },
 ];
 
-export const certificates = {
-  featured: [
-    {
-      name: "Class XII – 81%",
-      issuer: "KLE IPC",
-      icon: "🎓",
-    },
-    {
-      name: "Class X – 81%",
-      issuer: "Good Shepherd Central School",
-      icon: "🎓",
-    }
-  ],
-  viewAllUrl: "/Certificates.pdf",
-};
 
 export const education = {
   degree: "B.Tech – Computer Science & Engineering",
@@ -242,7 +219,7 @@ export const education = {
 export const footerContent = {
   taglines: [
     "Web Development & Blockchain",
-    "Solidity · React.js · Python",
+    "Solidity · React.js · Java",
     "Building secure decentralized systems",
   ],
   credential: "B.Tech CSE Student",

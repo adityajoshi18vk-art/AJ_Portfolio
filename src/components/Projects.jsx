@@ -112,8 +112,9 @@ const Projects = () => {
         
         {/* Header */}
         <div data-aos="fade-up" className="mb-16 md:mb-20">
-          <div className="inline-block border border-white/20 rounded-full px-5 py-1.5 text-sm text-white/60 font-bold mb-8 shadow-sm bg-white/5 backdrop-blur-sm">
-            Featured Projects
+          <div className="inline-flex items-center gap-3 border border-white/10 rounded-full px-6 py-2 text-sm text-white/80 font-black mb-8 shadow-[0_0_15px_rgba(255,255,255,0.05)] bg-white/5 backdrop-blur-md hover:bg-white/10 hover:border-red-500/30 transition-all duration-300">
+            <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse shadow-[0_0_10px_rgba(255,42,42,0.8)]"></span>
+            <span className="tracking-widest uppercase text-transparent bg-clip-text bg-gradient-to-r from-white to-white/60">Featured Projects</span>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-[1.1] mb-6 tracking-tight">
             Work that speaks <br className="hidden md:block" />for itself
